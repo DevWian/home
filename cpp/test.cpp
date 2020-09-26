@@ -8,6 +8,7 @@ private:
     string name;
     int cls, grade;
 public:
+    Student();
     Student(string name, int grade, int cls):cls(cls),grade(grade),name(*new string(name)){};
     void display();
     ~Student();
